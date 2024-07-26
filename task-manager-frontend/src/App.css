@@ -1,0 +1,42 @@
+/* src/App.css */
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input, textarea, select, button {
+  display: block;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.error {
+  color: red;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: darkred;
+}

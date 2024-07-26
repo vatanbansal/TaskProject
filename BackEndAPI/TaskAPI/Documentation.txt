@@ -1,0 +1,9 @@
+﻿You can test your API using tools like Postman or curl. For example:
+
+Get all tasks: GET https://localhost:5001/api/task
+Get tasks by status: GET https://localhost:5001/api/task?status=ToDo
+Get a single task: GET https://localhost:5001/api/task/{id}
+Create a new task: POST https://localhost:5001/api/task with JSON body { "title": "New Task", "description": "Task description", "status": "ToDo" }
+Update a task: PUT https://localhost:5001/api/task/{id} with JSON body { "id": 1, "title": "Updated Task", "description": "Updated description", "status": "InProgress" }
+Delete a task: DELETE https://localhost:5001/api/task/{id}
+This implementation includes handling the status property and allows filtering tasks based on their status.
